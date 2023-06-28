@@ -13,5 +13,8 @@ def fun(s):
 
     return sum
 print(fun(s))
+for i in range(5):
+    print('this is working')
+    
 
 
