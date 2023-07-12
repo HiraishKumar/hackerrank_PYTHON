@@ -55,7 +55,7 @@ ide=np.identity(5)
 print(ide)
 print(ide.dtype)
 print(ide.shape)
-
+import numpy as np
 arr=np.arange(15)
 print(arr)
 print(arr.reshape(3,5))
