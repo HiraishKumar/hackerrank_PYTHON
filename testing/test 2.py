@@ -17,13 +17,19 @@
 #     print('this is working')
 
 
-from math import sqrt
+
 import numpy as np
 
-arr=np.arange(500000)
-lst=list(sqrt(i) for i in arr)
-# print(lst)
-print(arr.dtype)
+a=[i for i in range(15) if i%2==0 ]
+b=np.asarray(a)
+print(a)
+print(b)
+print(np.array(a))
+print(b)
+# arr=np.arange(500000)
+# lst=list(sqrt(i) for i in arr)
+# # print(lst)
+# print(arr.dtype)
 
 # lst=[i for i in range (500000)]
 # print(list(map(sqrt,lst)))
