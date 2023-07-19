@@ -22,7 +22,7 @@ for item in pro:
         fin = mod        
 print(fin)
 
-'''Question: Maximize it [Python Itertools]
+'''Question: Maximize it [Python Itertools,]
 You are given a function f(X) = X2. You are also given K lists. The ith list consists of Ni elements.
 You have to pick one element from each list so that the value from the equation below is maximized:
 S = (f(X1) + f(X2) +....+ f(Xk)) % M
