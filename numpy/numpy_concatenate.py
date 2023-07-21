@@ -69,3 +69,6 @@ lst=[]
 for i in range(int(N)+int(M)):
     lst.append(list(map(int,input().split())))
 print((np.array(lst)).reshape(int(N)+int(M),int(P)))
+
+for i in range (15):
+    print(2**i//i**2)
