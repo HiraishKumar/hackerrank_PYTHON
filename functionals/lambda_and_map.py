@@ -44,3 +44,4 @@ def fibonacci(n:int):
 
 n = int(input())
 print(list(map(cube, fibonacci(n))))
+
