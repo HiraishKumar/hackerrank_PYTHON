@@ -10,7 +10,6 @@ for i in range (customers):
     else:
         pass
 print(sum)
-
 '''
 10
 2 3 4 5 6 8 7 6 5 18
