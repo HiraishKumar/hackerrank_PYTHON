@@ -13,8 +13,6 @@ The first line contains a , the second line contains b, and the third line conta
 
 Constraints
 
-
-
 Sample Input
 
 3
