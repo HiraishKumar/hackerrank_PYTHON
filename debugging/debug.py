@@ -38,6 +38,7 @@ def print_from_stream(n, stream=None):
         print(stream.get_next())
 
 
+#Main call loop
 queries = int(input())
 for _ in range(queries):
     stream_name, n = input().split()
